@@ -1,0 +1,61 @@
+CBAM ACTUAL EMBEDDED EMISSIONS CALCULATOR — SUSTAINABILITY-FRISK
+Instructions: Fill in the yellow columns (marked INPUT). Blue columns calculate automatically in Excel. This CSV shows the structure — download the .xlsx for formulas.
+See README.md for full guidance.
+
+SECTION 1 — SHIPMENT DETAILS
+Field,Your Input,Unit,Notes
+Reporting period start date,,DD/MM/YYYY,
+Reporting period end date,,DD/MM/YYYY,
+Product CN code,,e.g. 7208,See CBAM product list
+Product description,,Text,
+Total production volume - reporting period,,Tonnes,Net weight of goods produced
+Total export volume to EU,,Tonnes,Net weight of goods exported to EU
+Exporter company name,,Text,
+Country of origin,,e.g. Pakistan,
+EU importer company name,,Text,Fill if known
+CBAM declarant name (if different),,Text,
+
+SECTION 2 — DIRECT PROCESS EMISSIONS (SCOPE 1)
+Source,Annual Quantity,Unit,Emission Factor (kgCO2e per unit),Total tCO2e,Data Source
+Coal consumption,,Tonnes,2.42,FORMULA: Qty * EF / 1000,IPCC 2006 Table 1.4
+Coke consumption,,Tonnes,3.17,FORMULA: Qty * EF / 1000,IPCC 2006
+Natural gas consumption,,MWh,0.202,FORMULA: Qty * EF / 1000,IPCC 2006
+Furnace oil / HFO,,Tonnes,3.15,FORMULA: Qty * EF / 1000,IPCC 2006
+Diesel (on-site),,Litres,2.69,FORMULA: Qty * EF / 1000,IPCC 2006 / DEFRA 2024
+LPG,,Kg,2.98,FORMULA: Qty * EF / 1000,IPCC 2006
+Process CO2 (e.g. limestone decomposition),,Tonnes CO2,1.00,FORMULA: Qty * EF / 1000,Direct measurement
+TOTAL DIRECT EMISSIONS,,,,SUM ABOVE,
+
+SECTION 3 — INDIRECT ELECTRICITY EMISSIONS (SCOPE 2)
+Source,Annual Quantity,Unit,Emission Factor (kgCO2e per kWh),Total tCO2e,Data Source
+Grid electricity consumed,,MWh,[Country EF below],FORMULA: Qty * EF / 1000,See country EFs below
+Renewable electricity (certified),,MWh,0.000,FORMULA: Qty * 0,Only if certified RECs held
+TOTAL INDIRECT EMISSIONS,,,,SUM ABOVE,
+
+COUNTRY GRID EMISSION FACTORS (2024 reference)
+Country,Grid EF (kgCO2e/kWh),Source,
+China,0.581,China MEE 2023,
+India,0.708,CEA 2023,
+Pakistan,0.370,NEPRA 2024,
+Vietnam,0.498,EVN 2023,
+Turkey,0.441,TEIAS 2023,
+Bangladesh,0.599,BPDB 2023,
+EU average,0.233,EEA 2023,
+UK,0.207,DEFRA 2024,
+
+SECTION 4 — EMBEDDED EMISSIONS CALCULATION
+Calculation,Formula,Result
+Total production emissions (Scope 1 + 2),Section 2 total + Section 3 total,
+Embedded emissions per tonne produced,Total emissions / Production volume,tCO2e/tonne
+Embedded emissions for EU export quantity,Per-tonne rate * Export volume,tCO2e
+Domestic carbon price already paid (if any),,tCO2e-equivalent EUR
+Net CBAM-liable emissions,EU export tCO2e - domestic carbon price,,
+CBAM certificate cost estimate (at EUR 70/tCO2),Net liable * 70,EUR
+CBAM certificate cost estimate (at EUR 90/tCO2),Net liable * 90,EUR
+
+SECTION 5 — VERIFICATION NOTES
+Item,Status,Verifier,Date
+Third-party verifier appointed,,e.g. TUV SUD / DNV,
+Verification standard,,e.g. ISO 14064-3,
+Verification statement reference,,Document number,
+Accreditation body,,e.g. DAkkS / UKAS,

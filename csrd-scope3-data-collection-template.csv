@@ -1,0 +1,103 @@
+CSRD SCOPE 3 DATA COLLECTION TEMPLATE - SUSTAINABILITY-FRISK
+Regulation: CSRD / ESRS E1 | Standard: GHG Protocol Corporate Value Chain (Scope 3) Standard
+Licence: MIT - free to use and adapt | Source: https://sustainability-frisk.com
+Instructions: Complete all INPUT fields. Emission factors are pre-filled with IPCC/ecoinvent defaults.
+
+COMPANY INFORMATION
+Field,Input,Notes
+Company name,,
+Reporting year,,YYYY
+Facility covered,,Single site or group?
+Methodology standard,,GHG Protocol Corporate Value Chain Standard (recommended)
+Third-party verifier (if applicable),,
+
+CATEGORY 1 - PURCHASED GOODS AND SERVICES (typically 40-70% of Scope 3)
+Sub-category,Quantity Purchased,Unit,EF (kgCO2e per unit),Source,Total tCO2e,Data Quality
+Raw cotton - conventional,,,5.500,Higg MSI 2024,,
+Raw cotton - organic,,,3.200,Higg MSI 2024,,
+Polyester staple fibre,,,9.520,Higg MSI 2024,,
+Polyester filament yarn,,,7.680,Higg MSI 2024,,
+Nylon / polyamide yarn,,,7.900,Higg MSI 2024,,
+Viscose / rayon fibre,,,4.810,Higg MSI 2024,,
+Wool - apparel,,,24.000,Higg MSI 2024,,
+Steel (hot rolled coil),,,1.985,World Steel Association 2024,,
+Steel (cold rolled),,,2.132,World Steel Association 2024,,
+Aluminium (primary),,,11.500,EAA 2024,,
+Aluminium (secondary/recycled),,,0.570,EAA 2024,,
+Copper,,,3.200,Ecoinvent 3.9,,
+Plastics - HDPE,,,2.100,Ecoinvent 3.9,,
+Plastics - PET,,,3.400,Ecoinvent 3.9,,
+Cardboard / paper packaging,,,0.920,DEFRA 2024,,
+Chemicals - dyestuffs (textile),,,6.200,Ecoinvent 3.9,,
+Purchased logistics services,,EUR spent,0.300 kgCO2e per EUR,Spend-based,,
+CATEGORY 1 TOTAL,,,,,,=SUM ABOVE
+
+CATEGORY 3 - FUEL AND ENERGY-RELATED ACTIVITIES
+Sub-category,Quantity,Unit,EF (kgCO2e per unit),Source,Total tCO2e,Notes
+Natural gas T&D losses,,MWh,0.041,DEFRA 2024,,
+Electricity T&D losses,,MWh,0.019,DEFRA 2024,,
+Well-to-tank diesel,,Litres,0.564,DEFRA 2024,,
+Well-to-tank coal,,Tonnes,0.238,IPCC 2006,,
+CATEGORY 3 TOTAL,,,,,,
+
+CATEGORY 4 - UPSTREAM TRANSPORTATION
+Mode,Shipment Weight (t),Distance (km),EF (kgCO2e per tonne-km),Total tCO2e,Source,Notes
+Sea freight - FCL container,,,0.0117,,IMO/DEFRA 2024,
+Sea freight - LCL container,,,0.0152,,IMO/DEFRA 2024,
+Air freight,,,0.5730,,DEFRA 2024,
+Road - HGV (>32t),,,0.0677,,DEFRA 2024,
+Rail freight,,,0.0280,,UIC 2024,
+CATEGORY 4 TOTAL,,,,,,
+
+CATEGORY 5 - WASTE GENERATED IN OPERATIONS
+Waste Type,Weight (tonnes),Disposal Route,EF (kgCO2e/tonne),Total tCO2e,Source,Notes
+Municipal solid waste,,Landfill,468,,DEFRA 2024,
+Food/organic waste,,Landfill,580,,DEFRA 2024,
+Incineration (with energy recovery),,Incineration,21,,DEFRA 2024,
+Metals recycling,,Recycling,-400,,DEFRA 2024 credit,
+Paper/cardboard recycling,,Recycling,-21,,DEFRA 2024 credit,
+Wastewater treatment,,Treatment,0.708 per m3,IWA/Ecoinvent,Use m3 as unit,
+CATEGORY 5 TOTAL,,,,,,
+
+CATEGORY 6 - BUSINESS TRAVEL
+Mode,Journeys or km,Unit,EF (kgCO2e per unit),Total tCO2e,Source,Notes
+Flights - short haul economy (<3700km),,passenger-km,0.150,,DEFRA 2024,
+Flights - long haul economy (>3700km),,passenger-km,0.114,,DEFRA 2024,
+Flights - business class long haul,,passenger-km,0.303,,DEFRA 2024,
+Rail travel,,passenger-km,0.035,,DEFRA 2024,
+Hotel nights,,nights,20.6,,Cornell/GreenStar,
+CATEGORY 6 TOTAL,,,,,,
+
+CATEGORY 11 - USE OF SOLD PRODUCTS
+Product Type,Units Sold,kWh per unit per year,Product Lifetime (years),Grid EF kgCO2e/kWh,Total tCO2e,Notes
+Electrical products (active use),,,,0.233 EU avg,,
+Non-energy products,,,,N/A,0,Not applicable - report zero
+CATEGORY 11 TOTAL,,,,,,
+
+CATEGORY 12 - END-OF-LIFE TREATMENT OF SOLD PRODUCTS
+Material/Product,Tonnes Sold,EoL Route (%),EF (kgCO2e/tonne),Total tCO2e,Source,Notes
+Textiles to landfill,,100%,468,,DEFRA 2024,
+Textiles to recycling,,100%,-21,,DEFRA 2024 credit,
+Electronics to WEEE recycling,,100%,-150,,Ecoinvent estimate,
+CATEGORY 12 TOTAL,,,,,,
+
+COUNTRY GRID EMISSION FACTORS 2024 (for Scope 2 and Scope 3 Cat 3)
+Country,Grid EF (kgCO2e/kWh),Source
+China,0.581,China MEE 2023
+India,0.708,CEA 2023
+Pakistan,0.370,NEPRA 2024
+Vietnam,0.498,EVN 2023
+Turkey,0.441,TEIAS 2023
+Bangladesh,0.599,BPDB 2023
+EU average,0.233,EEA 2023
+UK,0.207,DEFRA 2024
+USA,0.386,EPA eGRID 2023
+
+ESRS E1 OUTPUT SUMMARY
+ESRS E1 Disclosure Point,Value,Unit,Notes
+E1-6: Total Scope 3 GHG emissions,=SUM ALL CATEGORIES,tCO2e,
+E1-6: Upstream Scope 3 (Cat 1-8),,tCO2e,
+E1-6: Downstream Scope 3 (Cat 9-15),,tCO2e,
+E1-6: Most significant Scope 3 category,,tCO2e,Name the category
+E1-6: % covered by supplier-specific data,,%,Target >50% by year 3
+Base year,,YYYY,First full inventory year

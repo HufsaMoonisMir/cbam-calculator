@@ -1,0 +1,35 @@
+CN_Code,Product_Description,Country_of_Origin,Default_Embedded_Emissions_tCO2e_per_tonne,Source_Regulation,Notes
+7201,Pig iron - basic (unwrought),Global default,1.894,EU 2023/1773 Annex III,Use only during transitional period; actual data required from 2026
+7202,Ferro-alloys (ferrochromium high carbon),Global default,3.450,EU 2023/1773 Annex III,
+7208,Flat-rolled products of iron - hot rolled,Global default,1.985,EU 2023/1773 Annex III,
+7209,Flat-rolled products of iron - cold rolled,Global default,2.132,EU 2023/1773 Annex III,
+7210,Flat-rolled products - coated/plated (zinc),Global default,2.234,EU 2023/1773 Annex III,
+7213,Wire rod (iron/non-alloy steel),Global default,1.876,EU 2023/1773 Annex III,
+7214,Bars and rods - hot rolled,Global default,1.924,EU 2023/1773 Annex III,
+7216,Angles/shapes/sections - iron/non-alloy,Global default,1.968,EU 2023/1773 Annex III,
+7217,Wire - iron/non-alloy steel,Global default,2.045,EU 2023/1773 Annex III,
+7225,Flat-rolled products - alloy steel (other),Global default,2.289,EU 2023/1773 Annex III,
+7228,Other bars and rods - alloy steel,Global default,2.156,EU 2023/1773 Annex III,
+7229,Wire - alloy steel (other than stainless),Global default,2.234,EU 2023/1773 Annex III,
+7301,Sheet piling / welded angles (iron/steel),Global default,2.100,EU 2023/1773 Annex III,
+7308,Structures and parts (iron/steel),Global default,2.456,EU 2023/1773 Annex III,
+7326,Articles of iron/steel (other),Global default,2.567,EU 2023/1773 Annex III,
+7601,Unwrought aluminium - not alloyed,Global default,6.700,EU 2023/1773 Annex III,Includes process and indirect emissions
+7601,Unwrought aluminium - not alloyed,China,11.800,EU 2023/1773 Annex III,Higher due to coal-heavy grid
+7601,Unwrought aluminium - not alloyed,India,9.200,EU 2023/1773 Annex III,
+7601,Unwrought aluminium - not alloyed,Turkey,7.100,EU 2023/1773 Annex III,
+7604,Bars rods and profiles - aluminium,Global default,3.890,EU 2023/1773 Annex III,
+7606,Plates/sheets/strip - aluminium (>0.2mm),Global default,4.120,EU 2023/1773 Annex III,
+7607,Foil - aluminium (<=0.2mm),Global default,4.450,EU 2023/1773 Annex III,
+7608,Tubes and pipes - aluminium,Global default,4.230,EU 2023/1773 Annex III,
+7610,Structures and parts - aluminium,Global default,5.100,EU 2023/1773 Annex III,
+7616,Articles of aluminium (other),Global default,4.890,EU 2023/1773 Annex III,
+2523,Portland cement (grey),Global default,0.740,EU 2023/1773 Annex III,Per tonne clinker equivalent
+2523,White cement,Global default,0.820,EU 2023/1773 Annex III,
+2523,Aluminous cement,Global default,0.980,EU 2023/1773 Annex III,
+3102,Ammonium nitrate,Global default,7.430,EU 2023/1773 Annex III,Per tonne N2O-equivalent included
+3105,Fertilisers (mixed N-P-K),Global default,4.120,EU 2023/1773 Annex III,
+2804,Hydrogen - electrolytic (green),Global default,0.000,EU 2023/1773 Annex III,Zero if from renewable electricity
+2804,Hydrogen - SMR (grey),Global default,9.000,EU 2023/1773 Annex III,Steam methane reforming without CCS
+2716,Electricity (EU grid average 2024),EU average,0.233,EU 2023/1773 Annex III,tCO2e per MWh
+2716,Electricity (Pakistan NEPRA 2024),Pakistan,0.370,NEPRA Annual Report 2024,For reference - not a CBAM-covered import
