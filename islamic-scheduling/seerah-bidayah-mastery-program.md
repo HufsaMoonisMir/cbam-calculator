@@ -167,10 +167,10 @@ Both trackers use independent spaced-review queues (Day 0/1/3/7/14/30/60/90) and
 
 ---
 
-## 6. Outstanding Confirmation Needed
+## 6. Audience Register (confirmed)
 
-**Audience register for the O4 teaching-script deliverable (Section O4, module consolidation days) is not yet set.** Before Lesson 1 of either track can begin, please confirm who the 5–8 minute spoken teaching scripts should be written for — e.g. adult students, general public, a specific professional group, children, new Muslims, etc. This will be asked separately.
+**O4 teaching scripts (module consolidation days) are written for adult students who are already practicing Muslims** — basic Islamic literacy and standard terminology are assumed; scripts move at pace without glossing every term, unlike a general-public or new-Muslim register.
 
 ---
 
-*This document fulfils Program Charter §10 ("Required Output Before Lesson 1"). Lesson 1 of either track begins once placement-assessment answers and the audience-register confirmation are provided.*
+*This document fulfils Program Charter §10 ("Required Output Before Lesson 1"). Lesson 1 of either track begins once placement-assessment answers are submitted.*
